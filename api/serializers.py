@@ -8,5 +8,5 @@ class MovieSerializer(serializers.ModelSerializer):
 
 class RatingSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Movie
+        model = Rating
         fields = ['id', 'user', 'movie', 'stars']
