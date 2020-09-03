@@ -4,9 +4,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="head">
         <h1>Movie Rater</h1>
       </header>
+      <table>
+        <tr>
+          <td>Movie name</td>
+          <td>Movie description</td>
+        </tr>
+      </table>
     </div>
   );
 }
